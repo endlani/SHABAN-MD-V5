@@ -47,7 +47,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -55,23 +55,23 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 DEV: process.env.DEV || "923043788282",
 //replace with your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "false",
+ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
-ANTI_CALL: process.env.ANTI_CALL || "false",
+ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY PLEASE DONT CALL ME_*",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete
